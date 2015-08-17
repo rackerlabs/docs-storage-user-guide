@@ -11,3 +11,6 @@ Rackspace CDN.
    :alt: Rackspace CDN is located under the Storage tab.
 
    *Rackspace CDN is located under the Storage tab.*
+
+Create a service
+''''''''''''''''
