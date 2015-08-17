@@ -1,7 +1,10 @@
 .. _cloud-block-storage:
 
+-------------------
+Cloud Block Storage
+-------------------
 
-----
+
 
 * To learn key concepts about Cloud Block Storage,
   begin at :ref:`cloud-block-storage-concepts`.

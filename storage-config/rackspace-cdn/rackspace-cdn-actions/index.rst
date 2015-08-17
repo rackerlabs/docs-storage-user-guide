@@ -11,7 +11,6 @@ interface, begin at one of the following topics:
 * :ref:`rackspacecdn-gui`
 * :ref:`rackspacecdn-api`
 
-----
 Create a service
 ''''''''''''''''
 A service represents an application that has its content
@@ -37,3 +36,9 @@ Purge a file from a service
 
 Delete a service
 ''''''''''''''''
+
+.. toctree:: :hidden:
+   :maxdepth: 2
+
+   rackspacecdn-api
+   rackspacecdn-gui

@@ -1,8 +1,10 @@
 .. _cloud-files:
 
+-----------
+Cloud Files
+-----------
 
 
-----
 
 * To learn key concepts about Cloud Files,
   begin at :ref:`cloud-files-concepts`.
