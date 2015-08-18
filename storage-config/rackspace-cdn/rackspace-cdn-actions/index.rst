@@ -30,9 +30,19 @@ shorter or branded URL.
 
 Create and manage caching rules
 '''''''''''''''''''''''''''''''
+Caching rules are designed to determine how long your content
+should live on the edge nodes before the origin is
+checked for an update.
 
-Purge a file from a service
-'''''''''''''''''''''''''''
+If your content changes frequently, you might want to
+set up a time to live (TTL) rule that pulls content from
+the origin every few minutes. If your content does not change
+frequently, you can set a longer TTL of 12-24 hours.
+
+Purge content
+'''''''''''''
+You can remove content from an edge node so that it is
+refreshed from the origin.
 
 Delete a service
 ''''''''''''''''
