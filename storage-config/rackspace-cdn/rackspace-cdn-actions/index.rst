@@ -46,9 +46,3 @@ refreshed from the origin.
 
 Delete a service
 ''''''''''''''''
-
-.. toctree:: :hidden:
-   :maxdepth: 2
-
-   rackspacecdn-api
-   rackspacecdn-gui

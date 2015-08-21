@@ -25,8 +25,8 @@
     <script type="text/javascript" src="../../_static/doctools.js"></script>
     <link rel="top" title="Rackspace Storage Services User Guide 1.0 documentation" href="../../index.html" />
     <link rel="up" title="CLI: Command-line interfaces and tools" href="index.html" />
-    <link rel="next" title="Cloud Files and CLIs: swift" href="cloudfiles-cli.html" />
-    <link rel="prev" title="CLI: Command-line interfaces and tools" href="index.html" />
+    <link rel="next" title="cinder CLI" href="cinder.html" />
+    <link rel="prev" title="Preparing to use a CLI" href="setup-cli.html" />
    
   
   <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
@@ -41,6 +41,66 @@
             
   <div class="section" id="cloud-block-storage-and-clis-cinder">
 <span id="cloudblockstorage-cli"></span><h1>Cloud Block Storage and CLIs: cinder<a class="headerlink" href="#cloud-block-storage-and-clis-cinder" title="Permalink to this headline">¶</a></h1>
+<p>To interact with Cloud Block Storage at the command line, you can
+use tools created specifically for the purpose of interacting
+with OpenStack-based clouds, such as Rackspace CLI (rack), nova,
+and cinder, or general-purpose tools (cURL).</p>
+<p>For more information about these tools, see the following
+resources:</p>
+<ul class="simple">
+<li><a class="reference internal" href="rack.html#rack"><span>Rackspace CLI</span></a></li>
+<li><a class="reference internal" href="cinder.html#cinder"><span>cinder CLI</span></a></li>
+<li><a class="reference external" href="https://developer.rackspace.com/docs/user-guide/infrastructure/cloud-interfaces/cli/nova">nova</a></li>
+<li><a class="reference internal" href="curl.html#curl"><span>cURL CLI</span></a></li>
+</ul>
+<p>In working with Cloud Block Storage, you might find that you
+need to use nova for some functions and cinder for others.
+You should install both tools. You can see an example
+of using nova and cinder together at
+<a class="reference external" href="http://www.rackspace.com/knowledge_center/article/configuring-openstack-block-storage">Configuring OpenStack Block Storage</a>
+where in the &#8220;Create a Volume&#8221; section, <code class="docutils literal"><span class="pre">nova</span> <span class="pre">volume-attach</span></code> associates
+a volume with a server and <code class="docutils literal"><span class="pre">cinder</span> <span class="pre">list</span></code> confirms that
+association.</p>
+<p>Alternatively, you can use Rackspace CLI to interact with
+most cloud services without having to switch clients.</p>
+<p>Before you can use one of these tools, you must install
+a local (client) copy. The installation procedure varies for
+each tool and is documented with the tool.</p>
+<p>The commands that you can send are the same as the requests
+that you can send to the API endpoint, but they are wrapped in
+the syntax of the client. The
+<a class="reference external" href="http://api.rackspace.com/api-ref-blockstorage.html">API cross-reference</a>
+lists those requests for Cloud Block Storage.</p>
+<p>If you have both the cinder client and a cURL client
+installed on your local computer,
+you can choose to issue commands either through your
+local copy of the cinder client or by using a general-purpose client
+such as cURL, by sending a request to the instance of
+the python-cinderclient that is active at the API endpoint for
+Cloud Block Storage.
+You can see both methods demonstrated in the Cloud Block Storage
+API documentation, under
+<a class="reference external" href="http://docs.rackspace.com/cbs/api/v1.0/cbs-devguide/content/serviceQuotas-d1e01.html">Cloud Block Storage quotas</a>.</p>
+<ul>
+<li><p class="first">cinder users send a short command,
+reusing details provided when the cinder client was configured:</p>
+<div class="highlight-python"><div class="highlight"><pre>cinder quota-usage yourAccountID
+</pre></div>
+</div>
+</li>
+<li><p class="first">cURL users send a long command or series of commands,
+specifying details required to perform the API request:</p>
+<div class="highlight-python"><div class="highlight"><pre>curl -i -X GET https://dfw.blockstorage.api.rackspacecloud.com/v1/yourAccountID/os-quota-sets/yourAccountID?usage=True \
+-H &quot;X-Auth-Project-Id: yourAccountID&quot; \
+-H &quot;User-Agent: python-cinderclient&quot; \
+-H &quot;Accept: application/json&quot; \
+-H &quot;X-Auth-Token: yourAuthToken&quot;
+</pre></div>
+</div>
+</li>
+</ul>
+<div class="toctree-wrapper compound">
+</div>
 </div>
 
 
@@ -54,8 +114,8 @@
   <li><a href="../../index.html">Documentation overview</a><ul>
   <li><a href="../index.html">&lt;no title&gt;</a><ul>
   <li><a href="index.html">CLI: Command-line interfaces and tools</a><ul>
-      <li>Previous: <a href="index.html" title="previous chapter">CLI: Command-line interfaces and tools</a></li>
-      <li>Next: <a href="cloudfiles-cli.html" title="next chapter">Cloud Files and CLIs: swift</a></li>
+      <li>Previous: <a href="setup-cli.html" title="previous chapter">Preparing to use a CLI</a></li>
+      <li>Next: <a href="cinder.html" title="next chapter">cinder CLI</a></li>
   </ul></li>
   </ul></li>
   </ul></li>

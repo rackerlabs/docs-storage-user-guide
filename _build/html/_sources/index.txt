@@ -55,3 +55,4 @@ Services in this category include:
    :maxdepth: 2
 
    storage-config/index
+   storage-interfaces/index
