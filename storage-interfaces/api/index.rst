@@ -18,15 +18,18 @@ If you are responsible for administering systems that are
 used for cloud software development, you might want to
 investigate DevOps tools designed for this purpose.
 
+To learn about how to use SDKs and APIs, start at the
+:user-guide:`Rackspace Core Infrastructure User Guide <cloud-interfaces/api>`.
+
+For more information on using SDKs and APIs to interact
+with a specific cloud service, see:
+
+* :user-guide:`Cloud Block Storage and SDKs and APIs <cloud-interfaces/api/cloudblockstorage-api>`
+* :user-guide:`Cloud Files and SDKs and APIs <cloud-interfaces/api/cloudfiles-api>`
+* :ref:`rackspacecdn-api`
+
 
 .. toctree:: :hidden:
    :maxdepth: 2
 
-   devopstools
-   sdk
-   direct-api-access
-   setup-api
-   cloudblockstorage-api
-   cloudfiles-api
    rackspacecdn-api
-   moreinfo-api

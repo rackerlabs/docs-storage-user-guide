@@ -13,73 +13,18 @@ Panel to get an overview of the available products and services,
 create your first servers and resources, and view information about
 your Rackspace account.
 
-You can also use the Cloud Control Panel to complete some
-important first tasks:
+To learn about how to use the Cloud Control Panel, start at the
+:user-guide:`Rackspace Core Infrastructure User Guide <cloud-interfaces/gui>`.
 
-* :kc-article:`Obtain your API key <view-and-reset-your-api-key>`
-  for use with :ref:`CLIs <storage-interfaces-cli>`,
-  :ref:`SDKs <sdk>`, and
-  :ref:`APIs <direct-api-access>`
+For more information on using the Cloud Control Panel to interact
+with a specific cloud service, see:
 
-* :kc-article:`Create additional account users <managing-role-based-access-control-rbac>`
-  and give them
-  :kc-article:`permissions <permissions-matrix-for-role-based-access-control-rbac>`
-  if needed
-
-  .. note::
-     Users who do not have permission to use a feature
-     do not see that feature in the Cloud Control Panel.
-     Cloud Control Panel screenshots in
-     :kc:`technical documentation <>`
-     might show features that are not
-     available to some users.
-
-* View and change resource limits
-
-  .. figure:: /_images/accountresourcelimits.png
-     :scale: 80%
-     :alt: You can use the Control Panel to see your current
-         limits and to ask to change them.
-
-     *You can use the Control Panel to see your current
-     limits and to ask to change them.*
-
-  If you click the **Request Limit Increase** link, the system
-  generates a support ticket with the details of your current limits.
-  To make a change, describe what you want and
-  submit the ticket for processing. Update the ticket to
-  describe the change you want; then click **Submit Ticket**.
-
-  .. figure:: /_images/createticketserversresourcelimit.png
-     :scale: 80%
-     :alt: In the generated ticket,
-         fill in the details you want to change.
-
-     *In the generated ticket,
-     fill in the details you want to change.*
-
-The Cloud Control Panel might be the only interface that you need to use,
-especially if you don't need to heavily automate the management of your
-cloud resources.
-
-.. note::
-   Occassionally,
-   high-priority messages are displayed in a banner
-   at the top of the Cloud Control Panel window.
-   If you see such a message,
-   follow its instructions as soon as you can.
-
-
-
-
-
+* :user-guide:`Cloud Block Storage and the Cloud Control Panel <cloud-interfaces/gui/cloudblockstorage-gui>`
+* :user-guide:`Cloud Files and the Cloud Control Panel <cloud-interfaces/gui/cloudfiles-gui>`
+* :ref:`rackspacecdn-gui`
 
 
 .. toctree:: :hidden:
    :maxdepth: 2
 
-   setup-gui
-   cloudblockstorage-gui
-   cloudfiles-gui
    rackspacecdn-gui
-   moreinfo-gui

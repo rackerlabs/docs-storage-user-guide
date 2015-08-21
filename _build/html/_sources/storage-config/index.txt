@@ -14,15 +14,49 @@ you can use Cloud Block Storage and Cloud Files to add
 more storage to your core infrastructure, and Rackspace CDN
 to accelerate the delivery of your stored content.
 
-* :ref:`cloud-block-storage` discusses Cloud Block Storage,
-  introducing key concepts and basic actions.
+----
 
-* :ref:`cloud-files` discusses Cloud Files,
-  introducing key concepts and basic actions.
+* To learn key concepts about Cloud Block Storage, begin at
+  :user-guide:`Understanding Cloud Block Storage <cloud-config/storage/cloud-block-storage-product-concepts/>`.
 
-* :ref:`rackspace-cdn` discusses Rackspace CDN,
-  introducing key concepts and basic actions.
+* To see a list of actions that Cloud Block Storage can perform, visit
+  :user-guide:`Actions for Cloud Block Storage <cloud-config/storage/cloud-block-storage-product-actions/>`.
 
+* To learn how to perform Cloud Block Storage actions by using your
+  choice of interface, begin at one of the following topics:
+
+  * :user-guide:`Cloud Block Storage and the Cloud Control Panel <cloud-interfaces/gui/cloudblockstorage-gui>`
+  * :user-guide:`Cloud Block Storage and CLIs: cinder <cloud-interfaces/cli/cloudblockstorage-cli>`
+  * :user-guide:`Cloud Block Storage and SDKs and APIs <cloud-interfaces/api/cloudblockstorage-api>`
+
+----
+
+* To learn key concepts about Cloud Files, begin at
+  :user-guide:`Understanding Cloud Files <cloud-config/storage/cloud-files-product-concepts/>`.
+
+* To see a list of actions that Cloud Files can perform, visit
+  :user-guide:`Actions for Cloud Files <cloud-config/storage/cloud-files-product-actions/>`.
+
+* To learn how to perform Cloud Files actions by using your
+  choice of interface, begin at one of the following topics:
+
+  * :user-guide:`Cloud Files and the Cloud Control Panel <cloud-interfaces/gui/cloudfiles-gui>`
+  * :user-guide:`Cloud Files and CLIs: swift and swiftly <cloud-interfaces/cli/cloudfiles-cli>`
+  * :user-guide:`Cloud Files and SDKs and APIs <cloud-interfaces/api/cloudfiles-api>`
+
+----
+
+* To learn key concepts about Rackspace CDN,
+  begin at :ref:`rackspace-cdn-concepts`.
+
+* To see a list of actions that Rackspace CDN can perform,
+  visit :ref:`rackspace-cdn-actions`.
+
+* To learn how to perform Rackspace CDN actions by using your
+  choice of interface, begin at one of the following topics:
+
+  * :ref:`rackspacecdn-gui`
+  * :ref:`rackspacecdn-api`
 
 
 
@@ -30,6 +64,4 @@ to accelerate the delivery of your stored content.
 .. toctree:: :hidden:
    :maxdepth: 6
 
-   cloud-block-storage/index
-   cloud-files/index
    rackspace-cdn/index

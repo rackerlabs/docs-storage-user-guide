@@ -35,19 +35,9 @@ Rackspace CDN provides a simple API and Control Panel experience
 for you to manage your CDN-enabled domains and the origins
 and assets associated with those domains.
 
-----
 
-* To learn key concepts about Rackspace CDN,
-  begin at :ref:`rackspace-cdn-concepts`.
 
-* To see a list of actions that Rackspace CDN can perform,
-  visit :ref:`rackspace-cdn-actions`.
 
-* To learn how to perform Rackspace CDN actions by using your
-  choice of interface, begin at one of the following topics:
-
-  * :ref:`rackspacecdn-gui`
-  * :ref:`rackspacecdn-api`
 
 
 .. toctree:: :hidden:

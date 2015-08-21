@@ -113,7 +113,9 @@ extlinks = {
     'os-wiki': ('http://wiki.openstack.org/%s', ''),
     'git-repo': ('https://github.com/rackerlabs/docs-storage-user-guide/%s', ''),
     'rackerlabs': ('https://github.com/rackerlabs/%s', ''),
-    'user-guide': ('https://developer.rackspace.com/docs/user-guide/infrastructure/%s', '')
+    'user-guide': ('https://developer.rackspace.com/docs/user-guides/infrastructure/%s', ''),
+    'ug-config': ('https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-config/storage/%s', ''),
+    'ug-interface': ('https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-interfaces/%s', '')
 }
 
 # A list of ignored prefixes for module index sorting.

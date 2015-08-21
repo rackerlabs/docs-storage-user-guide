@@ -1,6 +1,8 @@
 .. _storage-interfaces:
 
-
+========================
+Interacting with storage
+========================
 
 
 
@@ -9,5 +11,4 @@
    :maxdepth: 6
 
    gui/index
-   cli/index
    api/index
