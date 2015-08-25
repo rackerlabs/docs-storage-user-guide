@@ -3,14 +3,13 @@
 -----------------------------------------
 Rackspace CDN and the Cloud Control Panel
 -----------------------------------------
-You can use the Cloud Control Panel to configure and manage
-Rackspace CDN.
+When you log in to the :mycloud:`Cloud Control Panel <>`, your
+session begins with information about your Cloud Servers. To
+see your Rackspace CDN information, click **Storage** and
+then click **CDN**.
 
 .. figure:: /_images/controlpanelrackspacecdn.png
    :scale: 80%
    :alt: Rackspace CDN is located under the Storage tab.
 
    *Rackspace CDN is located under the Storage tab.*
-
-Create a service
-''''''''''''''''
