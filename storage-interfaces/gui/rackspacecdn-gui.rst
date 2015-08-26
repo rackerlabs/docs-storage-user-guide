@@ -28,3 +28,5 @@ you can see:
 
    *If you have no Rackspace CDN services, the Cloud Control
    Panel shows you how to create one.*
+
+.. include:: /_common/note-chrome-devtools.txt

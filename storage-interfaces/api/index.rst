@@ -33,3 +33,6 @@ with a specific cloud service, see:
    :maxdepth: 2
 
    rackspacecdn-api
+   rackspacecdn-api-documentation
+   rackspacecdn-api-demonstration
+   rackspacecdn-sdk
