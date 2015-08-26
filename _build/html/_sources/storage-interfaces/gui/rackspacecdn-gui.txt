@@ -13,3 +13,20 @@ then click **CDN**.
    :alt: Rackspace CDN is located under the Storage tab.
 
    *Rackspace CDN is located under the Storage tab.*
+
+If your list of services is not empty, then for each service
+you can see:
+
+* The name of the service
+* Its domain name
+* Its origin
+
+.. figure:: /_images/controlpanelcreatecdn.png
+   :scale: 80%
+   :alt: If you have no Rackspace CDN services, the
+         Cloud Control Panel shows you how to create one.
+
+   *If you have no Rackspace CDN services, the Cloud Control
+   Panel shows you how to create one.*
+
+.. include:: /_common/note-chrome-devtools.txt

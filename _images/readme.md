@@ -78,25 +78,37 @@ To include any image in the guide:
 **Inventory of screenshots**
 
 * **accountresourcelimits.png**
-  * used at /storage-interfaces/gui/index.html
+  * used at storage-interfaces/gui/index.html
   * collected from https://mycloud.rackspace.com
   * collection date 2015-05-18
   * contributed by Rose Coste
 
+* **chromeviewdevelopertools.png**
+  * used at storage-interfaces/api/rackspacecdn-api.html
+  * collected from https://mycloud.rackspace.com
+  * collection date 2015-05-15
+  * contributed by Rose Coste
+
 * **controlpanelrackspacecdn.png**
-  * used at /storage-interfaces/gui/rackspacecdn-gui.html
+  * used at storage-interfaces/gui/rackspacecdn-gui.html
   * collected from https://mycloud.rackspace.com
   * collection date 2015-08-14
   * contributed by Stephanie Fillmon
 
 * **createticketserversresourcelimit.png**
-  * used at /storage-interfaces/gui/index.html
+  * used at storage-interfaces/gui/index.html
   * collected from https://mycloud.rackspace.com/
   * collection date 2015-05-18
   * contributed by Rose Coste
 
-* **quickstart-shell.png**
-  * used at /storage-interfaces/cli/curl.html
-  * collected from https://developer.rackspace.com/docs/cloud-block-storage/getting-started/
-  * collection date 2015-05-26
-  * contributed by Rose Coste
+* **rackspacecdnlistservicesget.png**
+  * used at storage-interfaces/api/rackspacecdn-api.html
+  * collected from http://api.rackspace.com/
+  * collection date 2015-08-25
+  * contributed by Stephanie Fillmon
+
+* **rackspacecdnsdkphp.png**
+  * used at storage-interfaces/api/rackspacecdn-sdk.html
+  * collected from https://developer.rackspace.com/
+  * collection date 2015-08-25
+  * contributed by Stephanie Fillmon 
