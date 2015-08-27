@@ -1,4 +1,4 @@
-Images for Rackspace Cloud Core Infrastructure Services User Guide
+Images for Rackspace Cloud Storage Services User Guide
 =======================================================================
 All images must reside in this *_images* directory.
 
@@ -72,6 +72,9 @@ To include any image in the guide:
 ----
 **Inventory of logos**
 
+* **logo-cloudblockstorage-50x50.png**
+  * used at docs-storage-user-guide/index.html
+  * 
 
 
 ----
@@ -111,4 +114,4 @@ To include any image in the guide:
   * used at storage-interfaces/api/rackspacecdn-sdk.html
   * collected from https://developer.rackspace.com/
   * collection date 2015-08-25
-  * contributed by Stephanie Fillmon 
+  * contributed by Stephanie Fillmon
