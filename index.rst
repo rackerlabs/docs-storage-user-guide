@@ -58,5 +58,5 @@ Services in this category include:
 .. toctree:: :hidden:
    :maxdepth: 2
 
-   storage-config/index
    storage-interfaces/index
+   storage-config/index
